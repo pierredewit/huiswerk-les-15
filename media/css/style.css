@@ -1,0 +1,213 @@
+/* reset elementen */
+body {
+    padding:0px;
+    margin:0px;   
+}
+
+header, footer, body {
+
+    padding: 5px;
+
+}
+    #container {
+		   padding:0px;
+    margin:0px;   
+    align:center;
+    }
+
+#header {
+
+}
+
+header {
+		background: #fff;
+    color: #004d91;
+    height: 40px;
+    margin:20px;
+		text-align: center;
+        
+		
+}
+
+header h1 {
+    padding:0px;
+    margin:0px;   
+}
+
+/* NAVIGATION BAR */
+nav {
+	background-color: #72bdee;
+	padding-left:10px;
+	padding-right:10px;
+	font-size:14px;
+	font-weight: 600;
+text-transform: uppercase;
+
+  border-top: 1px solid #222222;
+
+}
+
+nav ul {
+
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: left;
+        border-bottom: 1px solid #222222;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li {
+  border-right: 1px solid #bbb;	   
+}
+
+nav li a {
+   display: inline-block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+    width:135px;
+}
+
+
+
+nav ul li a img { 
+	display:inline-block; 
+	margin:auto; 
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+	    padding-right: 10px;
+} 
+nav ul  li a span {
+	vertical-align:middle;
+}
+
+
+nav li.first {
+	   border-left: 1px solid #bbb;
+}
+
+nav li a:active {
+    background-color: #004d91;
+}
+
+nav li a:hover {
+    background-color: #004d91;
+}
+
+footer {
+	background-color: #72bdee;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;	
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 10px;
+  
+}
+
+
+h1  {
+		text-align:center;
+}
+
+/* INTRO PAGINA */
+
+#intro_container {
+margin: 0 auto;
+    text-align: center;
+}
+
+#intro {
+
+}
+
+#intro p {
+	text-align:left;
+}
+
+#intro_text {
+		display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+#intro_foto {
+width:300px;
+height:200px;
+display:inline-block;
+}
+
+
+/* MIJN CV PAGINA*/
+
+table{
+  padding-left: auto;
+  padding-right: auto;
+	width: 70%;
+	align: center;
+	
+}
+
+th {
+  background-color: #007dc3;
+  color: white;
+  border: 1px solid #007dc3;
+  }
+
+
+table th.periode {
+	width: 80px;	
+}
+
+
+.mijncv {
+	margin:0 auto;
+}
+
+
+table.mijncv {
+	border-collapse: collapse;
+}
+table.mijncv td, table.mijncv th{
+  border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+/* CONTACT PAGINA */
+
+
+#form-control {
+    margin: 0 auto;
+}
+input[type="text"], input[type="email"], textarea, select, button{
+    display: block;
+    margin: 15px 10px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px #808080;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+textarea{
+height: 100px;
+padding: 5px 4px;
+}
+button:active{
+    background-color: #222222;
+    color: #e3e3e3;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 5px #222222;
+    padding-bottom: 5px;
+}
